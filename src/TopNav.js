@@ -62,7 +62,7 @@ function useWindowDimensions() {
       window.addEventListener('resize', handleResize);
       return () => window.removeEventListener('resize', handleResize);
     }
-  }, [getWindowDimensions, hasWindow]);
+  }, [hasWindow]);
 
   return windowDimensions;
 }
