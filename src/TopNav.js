@@ -13,6 +13,15 @@ import { Link, useLocation } from 'react-router-dom';
 //   columnGap: '16px'
 // };
 
+const getWindowDimensions = () =>{
+  const width = hasWindow ? window.innerWidth : null;
+  const height = hasWindow ? window.innerHeight : null;
+  return {
+    width,
+    height,
+  };
+}
+
 const topNavStyles = {
   display: 'flex',
   justifyContent: 'space-between',
@@ -40,15 +49,6 @@ const renderNavLink = (link, title, pathname, setOpen) => {
 function useWindowDimensions() {
 
   const hasWindow = typeof window !== 'undefined';
-
-  const getWindowDimensions = () =>{
-    const width = hasWindow ? window.innerWidth : null;
-    const height = hasWindow ? window.innerHeight : null;
-    return {
-      width,
-      height,
-    };
-  }
 
   const [windowDimensions, setWindowDimensions] = React.useState(getWindowDimensions());
 
