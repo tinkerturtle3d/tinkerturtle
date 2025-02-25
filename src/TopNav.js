@@ -8,10 +8,10 @@ import MenuIcon from '@mui/icons-material/Menu';
 import { Link, useLocation } from 'react-router-dom';
 
 
-const linksStyle = { //TODO: apply to img/load as bg img
-  display: 'flex',
-  columnGap: '16px'
-};
+// const linksStyle = { //TODO: apply to img/load as bg img
+//   display: 'flex',
+//   columnGap: '16px'
+// };
 
 const topNavStyles = {
   display: 'flex',

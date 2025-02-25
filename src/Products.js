@@ -1,7 +1,7 @@
 import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid2';
 
-const homeStyle = {
+const productStyle = {
   backgroundColor: '#eafff3'
 };
 
@@ -35,7 +35,7 @@ const VideoListItem = (title, text, src, direction) => { //TODO: componentize
 function Products() {
   return (
     <div>
-      <div>
+      <div style={productStyle}>
         <div style={{display: "flex", flexDirection: "column", rowGap: "48px"}}>
           {VideoListItem(
             "Everyday Case",

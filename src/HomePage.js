@@ -42,10 +42,6 @@ const getCreationListItemStyles = (imgName) => {
   }
 }
 
-const learnMoreStyle = {
-  display: 'flex',
-}
-
 const CreationListItem = (title, text, imgName) => { //TODO: componentize
   const styles = getCreationListItemStyles(imgName);
 
