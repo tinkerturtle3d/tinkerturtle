@@ -22,6 +22,7 @@ function App() {
             <Route path="/" element={<HomePage />} />  
             <Route path="/about" element={<About />} />
             <Route path="/products" element={<Products />} />
+            <Route path="/quickstart" element={<Products />} />
             <Route path="/resources" element={<Resources />} />
           </Routes>
           <BotNav />
