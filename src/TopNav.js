@@ -7,12 +7,6 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 import { Link, useLocation } from 'react-router-dom';
 
-
-// const linksStyle = { //TODO: apply to img/load as bg img
-//   display: 'flex',
-//   columnGap: '16px'
-// };
-
 const getWindowDimensions = () =>{
   const hasWindow = typeof window !== 'undefined';
   const width = hasWindow ? window.innerWidth : null;
@@ -102,6 +96,7 @@ function TopNav() {
           }}>
             {renderNavLink('/products', 'Products', pathname, setOpen)}
             {renderNavLink('/about', 'About', pathname, setOpen)}
+            {renderNavLink('/resources', 'Resources', pathname, setOpen)}
           </div>
           <div>
             <Button
@@ -123,6 +118,7 @@ function TopNav() {
       <Grid container columnSpacing={4} alignItems="center">
         {renderNavLink('/products', 'Products', pathname, () => {})}
         {renderNavLink('/about', 'About', pathname, () => {})}
+        {renderNavLink('/resources', 'Resources', pathname, () => {})}
       </Grid>
       <Button
         variant="contained"
