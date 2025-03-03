@@ -10,7 +10,7 @@ import BotNav from './BotNav';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename={`/${process.env.PUBLIC_URL}`}>
         <div style={{
           display: 'flex',
           minHeight: 'calc(100vh)',
@@ -19,11 +19,11 @@ function App() {
         }}>
           <TopNav />
           <Routes>
-            <Route path="/" element={<HomePage />} />  
-            <Route path="/about" element={<About />} />
-            <Route path="/products" element={<Products />} />
-            <Route path="/quickstart" element={<Products />} />
-            <Route path="/resources" element={<Resources />} />
+            <Route path="" element={<HomePage />} />  
+            <Route path="about" element={<About />} />
+            <Route path="products" element={<Products />} />
+            <Route path="quickstart" element={<Products />} />
+            <Route path="resources" element={<Resources />} />
           </Routes>
           <BotNav />
         </div>
