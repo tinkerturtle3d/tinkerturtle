@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.bac85fcc.css",
-    "main.js": "/static/js/main.a1093ef8.js",
+    "main.js": "/static/js/main.f2e4387c.js",
     "static/media/Ultra_45-230304_DIN-A5-English-2023-02.pdf": "/static/media/Ultra_45-230304_DIN-A5-English-2023-02.55e661002be5b107852f.pdf",
     "static/media/splash-img.jpg": "/static/media/splash-img.9f8bd2e5856e3a3411ce.jpg",
     "static/media/Scleral-Cup-230304_DIN-A5-English-2023-02.pdf": "/static/media/Scleral-Cup-230304_DIN-A5-English-2023-02.91a0bec5c7288a7b4e49.pdf",
@@ -15,10 +15,10 @@
     "static/media/TinkerTurtle_Logo.png": "/static/media/TinkerTurtle_Logo.79d3840a8d4b2cea637f.png",
     "index.html": "/index.html",
     "main.bac85fcc.css.map": "/static/css/main.bac85fcc.css.map",
-    "main.a1093ef8.js.map": "/static/js/main.a1093ef8.js.map"
+    "main.f2e4387c.js.map": "/static/js/main.f2e4387c.js.map"
   },
   "entrypoints": [
     "static/css/main.bac85fcc.css",
-    "static/js/main.a1093ef8.js"
+    "static/js/main.f2e4387c.js"
   ]
 }
