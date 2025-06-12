@@ -55,6 +55,12 @@ function Products() {
             "https://www.youtube.com/embed/ST93O3r4bRk?feature=oembed",
             "row"
           )}
+          {VideoListItem(
+            "Lighted Scleral Stand",
+            `A quick overview of the Lighted Scleral Stand`,
+            "https://www.youtube.com/embed/uVk7tqABvZ0?feature=oembed",
+            "row-reverse"
+          )}
         </div>
       </div>
       <div style={{paddingBottom: "48px", textAlign: "center"}}>
